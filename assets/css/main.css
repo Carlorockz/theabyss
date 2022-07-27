@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
+
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    background-attachment: fixed;
+
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #212529;
+}
+
+h4,
+h5,
+h6,
+p,
+a,
+li {
+    font-family: 'Montserrat', sans-serif;
+    color: #212529;
+}
+p{
+    font-size: 1rem;
+}
+#Hero {
+    background-image: url("../img/glasses-of-whiskey-on-the-table-2021-08-27-09-28-22-utc.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 70vh;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    -webkit-box-shadow: 0px 10px 89px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 39px 0px rgba(0, 0, 0, 0.3);
+}
+
+#Servicios {
+    padding: 10rem 0;
+}
+
+#Quienes {
+    padding: 5rem 0;
+  
+}
+#Promo{
+    
+   background-color: brown;
+    
+}
+#Footer{
+    background-color: black;
+    padding: 2rem 0;
+}
+
+
+.nav-logo{
+    width: 10rem;
+}
+.footer-logo{
+    width: 9rem;
+}
+.fa-brands{
+    font-size: 1.5rem;
+}
+.footer-icon{
+    cursor: pointer;
+    margin: 0 1rem;
+}
+.promo-text{
+    font-size: 2.3rem;
+}
+.servicios-subtitle{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.servicios-subtitle-span{
+    text-align: center;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.servicios-importante{
+    text-align: center;
+}
+.hero-title {
+    font-size: 5rem;
+
+}
+.hero-btn, .promo-btn{
+    padding-top: 0.3rem!important;
+    padding-bottom: 0.5rem!important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 2px;
+    font-size: 1rem;
+    border-style: none;
+    margin-bottom: 1rem;
+}
+.hero-btn{
+    background-color: brown;
+    color: white;
+}
+.hero-btn:hover, .promo-btn:hover{
+    background-color: #212529;
+    border-style: none;
+    color: white;
+}
+.hero-par {
+    line-height: 2.2rem;
+    font-size: 2rem;
+    
+}
+.service-icon {
+    font-size: 1.5rem;
+    border: 1px solid #212529;
+    padding: 0.5rem 0.5rem;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.service-par{
+    font-weight: 500;
+}
+.service-link{
+    cursor: pointer;
+}
+.submit-btn{
+    background-color: brown;
+    border-style: none;
+    color: white;
+}
+.submit-btn:hover{
+    background-color: #212529;
+    color: white;
+
+}
+@media (max-width: 800px) {
+    #Servicios {
+        padding: 8rem 2rem;
+    }
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
