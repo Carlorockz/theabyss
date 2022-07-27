@@ -135,6 +135,14 @@ p{
 }
 .service-link{
     cursor: pointer;
+    color: white;
+    background-color: #212529;
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    border-radius: 3px;
+}
+.service-link:hover{
+    background-color: brown;
 }
 .submit-btn{
     background-color: brown;
